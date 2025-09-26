@@ -6,7 +6,8 @@ public class DogwalkCompany {
     public String toString () {
         String s = "";
         for (int i = 0; i < schedule.length; i++);
-            s += i + " " + schedule[i] + "\n";
+            // fix this line -- cannot find "i"
+            //s += i + " " + schedule[i] + "\n";
         return s;
 
     }
