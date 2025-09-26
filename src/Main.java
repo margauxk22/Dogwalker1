@@ -4,5 +4,4 @@ public class Main
         DogwalkCompany c = new DogwalkCompany();
         System.out.println(c);
     }
-
 }
