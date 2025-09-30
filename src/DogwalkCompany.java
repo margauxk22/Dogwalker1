@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class DogwalkCompany {
     private int [] schedule;
     public DogwalkCompany() {
@@ -5,10 +7,19 @@ public class DogwalkCompany {
     }
     public String toString () {
         String s = "";
-        for (int i = 0; i < schedule.length; i++);
+        for (int i = 0; i < schedule.length; i++)
             // fix this line -- cannot find "i"
-            //s += i + " " + schedule[i] + "\n";
+            s += i + " " + schedule[i] + "\n";
         return s;
+
+    public int addDogs()
+        {
+        Scanner s = new Scanner(System.in);
+        System.out.println("What hour?");
+        int hour = s.nextInt();
+        schedule[hour] = dogs;
+        return hour;
+        }
 
     }
 }
